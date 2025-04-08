@@ -1,0 +1,21 @@
+/* estilo geral*/
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+/*menu*/
+header{
+    padding: 40px 4%;
+
+}
+
+ima
