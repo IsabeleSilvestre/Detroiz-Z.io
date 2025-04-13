@@ -18,6 +18,19 @@ header{
 
 }
 
+/*rodape*/
+footer{
+  background-color: rgb(53, 53, 53);
+  padding: 50px;
+  text-align: center;
+  color: rgb(179, 179, 179);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+}
+
 /* Pagina Sobre */
 body{
     background-color: black;
