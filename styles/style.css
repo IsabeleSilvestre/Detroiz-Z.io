@@ -12,6 +12,11 @@ body{
     color: white;
 }
 
+.interface {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
 /* Estilo cabeçalho */ 
 
 header a {
@@ -22,7 +27,6 @@ header a {
     font-size: 1.2rem;
 }
 
-<<<<<<< HEAD
 header a:hover {
     color: rgb(11, 94, 248);
     transform: scale(1.05);
@@ -44,7 +48,6 @@ header nav ul li {
     width: 150px;
     height: 150px;
 }
-=======
 /*rodape*/
 footer{
   background-color: rgb(53, 53, 53);
@@ -147,4 +150,75 @@ body{
     border-radius: 5px;
   }
 
->>>>>>> a5a8ae0517aa5317f1172eb772de22ce6803ca65
+/*Form Contato*/
+
+section.formulario { 
+    padding: 100px 4%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 0px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: rgba(90, 87, 87, 0.3); 
+    border: 0; 
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    min-height: 250px; 
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+ 
+/*Botao*/
+
+/* Botão */
+.botao {
+    background-color: rgb(32, 32, 32);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    transition: all 0.2s ease-in; 
+}
+
+.botao:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.bolinha {
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    animation: botao-bolinha 0.8s ease infinite;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: white;
+}
