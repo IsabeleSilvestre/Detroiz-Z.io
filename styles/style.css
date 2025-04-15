@@ -22,6 +22,7 @@ header a {
     font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
 header a:hover {
     color: rgb(11, 94, 248);
     transform: scale(1.05);
@@ -43,3 +44,107 @@ header nav ul li {
     width: 150px;
     height: 150px;
 }
+=======
+/*rodape*/
+footer{
+  background-color: rgb(53, 53, 53);
+  padding: 50px;
+  text-align: center;
+  color: rgb(179, 179, 179);
+}
+
+.linkrodape{
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+}
+
+/* Pagina Sobre */
+body{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+.timeline-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px auto;
+    padding: 40px 20px;
+    max-width: 1250px;
+    position: relative;
+  }
+  
+  .timeline-horizontal::before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #00FFFF; /* linha central */
+    z-index: 1;
+  }
+  
+  .timeline-event {
+    position: relative;
+    text-align: center;
+    width: 30%;
+    z-index: 2;
+  }
+  
+  .timeline-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #00FFFF;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid white;
+    position: relative;
+    top: 40px;
+    z-index: 3;
+  }
+  
+  .timeline-year {
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  
+  .timeline-info {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .timeline-dot-2 {
+    width: 20px;
+    height: 20px;
+    background-color: #00FFFF;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid white;
+    position: relative;
+    top: -35px;
+    z-index: 3;
+  }
+  
+  .timeline-year-2 {
+    font-weight: bold;
+    margin-top: -35px;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  
+  .timeline-info-2 {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-top: -160px;
+    border-radius: 5px;
+  }
+
+>>>>>>> a5a8ae0517aa5317f1172eb772de22ce6803ca65
