@@ -12,9 +12,34 @@ body{
     color: white;
 }
 
-/*menu*/
-header{
-    padding: 40px 4%;
+/* Estilo cabeçalho */ 
 
+header a {
+    color: rgb(121, 119, 119);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-size: 1.2rem;
 }
 
+header a:hover {
+    color: rgb(11, 94, 248);
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+header nav ul li {
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.logo-image img {
+    width: 150px;
+    height: 150px;
+}
