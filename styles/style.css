@@ -1,9 +1,10 @@
 /* estilo geral*/
 
 * {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Quicksand", sans-serif;
 }
 
 body{
@@ -12,66 +13,71 @@ body{
     color: white;
 }
 
-.interface {
-    max-width: 1290px;
-    margin: 0 auto;
-}
-
 /* Estilo cabeçalho */ 
 
 header a {
-    color: rgb(121, 119, 119);
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
-    font-size: 1.2rem;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
 }
 
 header a:hover {
-    color: rgb(11, 94, 248);
-    transform: scale(1.05);
+  color: rgb(11, 94, 248);
+  transform: scale(1.05);
 }
 
 header nav ul {
-    list-style: none;
-    display: flex; 
-    justify-content: center; 
-    flex-wrap: wrap; 
+  list-style: none;
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  background-color: rgb(53, 53, 53);
 }
 
 header nav ul li {
-    padding: 0 20px;
-    margin: 10px 0;
+  padding: 0 20px;
+  margin: 10px 0;
 }
 
 .logo-image img {
     width: 150px;
     height: 150px;
 }
-/*rodape*/
+
+/* Rodape */
 footer{
-  background-color: rgb(53, 53, 53);
-  padding: 40px;
+  background-color: #093b69;
+  padding: 30px;
+  padding-bottom: 10px;
   text-align: center;
-  color: rgb(179, 179, 179);
+  margin-bottom: 30px;
 }
 
 .rs{
- 
-  background-size: 50px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgb(87, 87, 87);
-  padding: 30px;
-  border-radius: 60px;
-  margin-top: 0px;
+  background-color: #2a649b;
+  padding: 7px;
+  border-radius: 70px;
   margin: 10px;
+  margin-bottom: 30px;
   border: none;
   cursor: pointer;
 }
 
-a{
-  text-decoration: none;
+.rs img{
+  width: 35px;
+  height: 35px;
+}
+
+footer a{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.774);
+font-size: 17px;
+}
+
+footer p{
+  color: rgba(177, 177, 177, 0.774);
 }
 
 
@@ -100,7 +106,7 @@ body{
     left: 0;
     right: 0;
     height: 4px;
-    background-color: #00FFFF; /* linha central */
+    background-color: #00FFFF; 
     z-index: 1;
   }
   
@@ -220,8 +226,6 @@ form .btn-enviar {
     text-align: center;
 }
  
-/*Botao*/
-
 /* Botão */
 .botao {
     background-color: rgb(32, 32, 32);
@@ -240,7 +244,7 @@ form .btn-enviar {
 }
 
 .botao:hover {
-    background-color: blueviolet;
+    background-color: rgb(12, 123, 187);
     color: white;
 }
 
