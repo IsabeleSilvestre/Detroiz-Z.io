@@ -87,6 +87,7 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     margin: 50px auto;
+    margin-top: 315px;
     padding: 40px 20px;
     max-width: 1250px;
     position: relative;
@@ -164,6 +165,22 @@ body{
     border-radius: 5px;
   }
 
+/*Configuração da imagem pagina sobre*/
+  .image-sobre-container {
+    width: 300px;
+    border-radius: 15%;
+    margin: 20px auto;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: rgb(87, 87, 87);
+  }
+/*Configurando a citação do dono*/
+
+  .text-container {
+    display: flex;
+    justify-content: center;
+  }
+  
 /*Form Contato*/
 
 section.formulario { 
