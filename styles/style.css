@@ -3,38 +3,51 @@
 * {
   margin:0;
   padding: 0;
-  box-sizing: border-box;
   font-family:"Quicksand", sans-serif;
 }
 
 body{
-    background-color: black;
-    height: 100vh;
-    color: white;
+  background-color: black;
+  height: 100vh;
+  color: white;
 }
 
-/*Estilo Pagina iniciar*/
+/*Estilo Pagina inicial*/
+
 .text-container {
-  display: flexbox;
-  justify-content: center;
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  max-width: 80%;
-  padding: 10px;
-  margin-left: 250px;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  background-color: #093b69;
-
 }
-/* Estilo cabeçalho */ 
+
+.text-container h1{
+padding: 40px;
+text-align: center;
+font-size: 2rem;
+}
+
+.text-container p{
+text-align: center;
+line-height: 1.8;
+font-size: 1.3rem;
+}
+
+.text-container strong{
+  color: #00a2ff;
+  font-style: italic;
+}
+
+/*estilo menu */ 
 
 header a {
 
   text-decoration: none;
   display: inline-block;
   font-size: 1.2rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 header a:hover {
@@ -47,10 +60,6 @@ header nav ul {
   display: flex; 
   justify-content: center; 
   flex-wrap: wrap; 
-  background-color: rgb(53, 53, 53);
-  max-width: 80%;
-  margin-left: 250px;
-  margin-top: -100px;
 }
 
 header nav ul li {
@@ -58,17 +67,11 @@ header nav ul li {
   margin: 10px 0;
 }
 
-.logo-image img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-left: 70px;
-}
 
 /* Rodape */
 footer{
   background-color: #093b69;
-  padding: 30px;
+  padding: 30px 0;
   padding-bottom: 10px;
   text-align: center;
   margin-bottom: 30px;
@@ -101,178 +104,178 @@ footer p{
 
 
 /* Pagina Sobre */
+
 body{
-    background-color: black;
-    height: 100vh;
-    color: white;
+  background-color: black;
+  height: 100vh;
+  color: white;
 }
 
 .timeline-horizontal {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 50px auto;
-    margin-top: 315px;
-    padding: 40px 20px;
-    max-width: 1250px;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px auto;
+  margin-top: 315px;
+  padding: 40px 20px;
+  max-width: 1250px;
+  position: relative;
   }
   
   .timeline-horizontal::before {
-    content: '';
-    position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background-color: #00FFFF; 
-    z-index: 1;
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #00FFFF; 
+  z-index: 1;
   }
   
   .timeline-event {
-    position: relative;
-    text-align: center;
-    width: 30%;
-    z-index: 2;
+  position: relative;
+  text-align: center;
+  width: 30%;
+  z-index: 2;
   }
   
   .timeline-dot {
-    width: 20px;
-    height: 20px;
-    background-color: #00FFFF;
-    border-radius: 50%;
-    margin: 0 auto;
-    border: 3px solid white;
-    position: relative;
-    top: 40px;
-    z-index: 3;
+  width: 20px;
+  height: 20px;
+  background-color: #00FFFF;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 3px solid white;
+  position: relative;
+  top: 40px;
+  z-index: 3;
   }
   
   .timeline-year {
-    font-weight: bold;
-    margin-top: 0px;
-    font-size: 18px;
-    color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 18px;
+  color: #FFFFFF;
   }
   
   .timeline-info {
-    background-color: #1A1A1A;
-    color: #FFFFFF;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 5px;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
   }
   
   .timeline-dot-2 {
-    width: 20px;
-    height: 20px;
-    background-color: #00FFFF;
-    border-radius: 50%;
-    margin: 0 auto;
-    border: 3px solid white;
-    position: relative;
-    top: -35px;
-    z-index: 3;
+  width: 20px;
+  height: 20px;
+  background-color: #00FFFF;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 3px solid white;
+  position: relative;
+  top: -35px;
+  z-index: 3;
   }
   
   .timeline-year-2 {
-    font-weight: bold;
-    margin-top: -35px;
-    font-size: 18px;
-    color: #FFFFFF;
+  font-weight: bold;
+  margin-top: -35px;
+  font-size: 18px;
+  color: #FFFFFF;
   }
   
   .timeline-info-2 {
-    background-color: #1A1A1A;
-    color: #FFFFFF;
-    padding: 10px;
-    margin-top: -160px;
-    border-radius: 5px;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: 10px;
+  margin-top: -160px;
+  border-radius: 5px;
   }
 
 /*Configuração da imagem pagina sobre*/
   .image-sobre-container {
-    width: 300px;
-    border-radius: 15%;
-    margin: 20px auto;
-    margin-right: 300px;
-    margin-left: 300px;
-    background-color: rgb(87, 87, 87);
+ width: 300px;
+ border-radius: 15%;
+ margin: 20px auto;
+ margin-right: 300px;
+ margin-left: 300px;
+ background-color: rgb(87, 87, 87);
   }
 /*Configurando a citação do dono*/
 
   .citacao-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   }
   
 /*Form Contato*/
 
 section.formulario { 
-    padding: 100px 4%;
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
+  padding: 100px 4%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
 }
 
 form {
-    width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: 0px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 0px;
 }
 
 form input, form textarea {
-    width: 100%;
-    background-color: rgba(90, 87, 87, 0.3); 
-    border: 0; 
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 15px;
-    color: white;
-    font-size: 18px;
+  width: 100%;
+  background-color: rgba(90, 87, 87, 0.3); 
+  border: 0; 
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
 }
 
 form textarea {
-    resize: none;
-    min-height: 250px; 
+  resize: none;
+  min-height: 250px; 
 }
 
 form .btn-enviar {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
  
 /* Botão */
 .botao {
-    background-color: rgb(32, 32, 32);
-    border: none;
-    border-radius: 10px;
-    color: white;
-    font-size: 18px;
-    font-family: monospace;
-    font-weight: bold;
-    width: 180px;
-    height: 50px;
-    cursor: pointer;
-    display: grid;
-    place-content: center;
-    transition: all 0.2s ease-in; 
+  background-color: rgb(32, 32, 32);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  transition: all 0.2s ease-in; 
 }
 
 .botao:hover {
-    background-color: rgb(12, 123, 187);
-    color: white;
+  background-color: rgb(12, 123, 187);
+  color: white;
 }
 
 .bolinha {
-    pointer-events: none;
-    width: 30px;
-    height: 30px;
-    animation: botao-bolinha 0.8s ease infinite;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: white;
+  pointer-events: none;
+  width: 30px;
+  height: 30px;
+  animation: botao-bolinha 0.8s ease infinite;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: white;
 }
