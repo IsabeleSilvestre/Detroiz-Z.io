@@ -20,7 +20,8 @@ body{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+
 }
 
 .text-container h1 {
@@ -41,15 +42,6 @@ body{
   font-style: italic;
 }
 
-/* produtos */
-.produtos {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 40px 20px;
-  background-color: #000;
-}
-
 /* Card base */
 .card {
   background-color: #0a0a0a;
@@ -64,18 +56,6 @@ body{
 
 .card:hover {
   transform: scale(1.05);
-}
-
-.card img {
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-
-.card-dz {
-  border: 2px solid #00aaff;
-  border-radius: 15px;
-  padding: 30px 20px;
 }
 
 .porque-dz {
@@ -101,7 +81,6 @@ body{
 .icon {
   font-size: 3rem;
   margin-bottom: 15px;
-  animation: pulse 2s infinite ease-in-out;
 }
 
 .card p {
@@ -109,8 +88,6 @@ body{
   color: #ccc;
 }
 
-
-/* Seção de chamada para ação */
 .cta {
   color: #fff;
   text-align: center;
@@ -154,17 +131,11 @@ header nav ul {
   display: flex; 
   justify-content: center; 
   flex-wrap: wrap; 
-  background-color: rgb(53, 53, 53);
 }
 
 header nav ul li {
   padding: 0 20px;
   margin: 10px 0;
-}
-
-.logo-image img {
-    width: 150px;
-    height: 150px;
 }
 
 /* Rodape */
@@ -200,7 +171,6 @@ font-size: 17px;
 footer p{
   color: rgba(177, 177, 177, 0.774);
 }
-
 
 /* Pagina Sobre */
 
@@ -292,7 +262,6 @@ body{
   border-radius: 5px;
   }
 
-/*Form Contato*/
 /*Configuração da imagem pagina sobre*/
   .image-sobre-container {
   width: 300px;
@@ -434,7 +403,7 @@ form textarea {
 }
 
 .botao:hover {
-  background-color: 0f0f;
+  background-color:#00aaff;
   color: white;
 }
 
