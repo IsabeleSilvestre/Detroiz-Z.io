@@ -263,15 +263,6 @@ body{
   border-radius: 5px;
   }
 
-/*Configuração da imagem pagina sobre*/
-  .image-sobre-container {
-  width: 300px;
-  border-radius: 15%;
-  padding: 10px;
-  margin-left: 750px;
-  margin-right: 800px;
-
-  }
 /*Configurando a citação do dono*/
 
   .citacao-container {
