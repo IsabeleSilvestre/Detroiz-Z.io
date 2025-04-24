@@ -23,24 +23,25 @@ body{
   align-items: center;
 }
 
-.text-container h1{
-padding: 40px;
-text-align: center;
-font-size: 2rem;
+.text-container h1 {
+  padding: 40px;
+  text-align: center;
+  font-size: 2rem;
 }
 
-.text-container p{
-text-align: center;
-line-height: 1.8;
-font-size: 1.3rem;
+.text-container p {
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1.3rem;
+  margin: 20px 0;
 }
 
-.text-container strong{
-  color: #0ff;
+.text-container strong {
+  color: #00aaff;
   font-style: italic;
 }
 
-/*estilo produtos*/
+/* produtos */
 .produtos {
   display: flex;
   justify-content: center;
@@ -49,9 +50,10 @@ font-size: 1.3rem;
   background-color: #000;
 }
 
+/* Card base */
 .card {
   background-color: #0a0a0a;
-  border: 1px solid #0ff;
+  border: 1px solid #00aaff;
   border-radius: 10px;
   padding: 20px;
   width: 300px;
@@ -70,17 +72,46 @@ font-size: 1.3rem;
   margin-bottom: 15px;
 }
 
-/* estilo depoimento */
-.depoimento {
-  background-color: #01030f;
-  color: #0ff;
-  text-align: center;
-  padding: 50px 20px;
-  font-style: italic;
-  font-size: 1.2rem;
+.card-dz {
+  border: 2px solid #00aaff;
+  border-radius: 15px;
+  padding: 30px 20px;
 }
 
-.cta {  
+.porque-dz {
+  padding: 50px 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.porque-dz h2 {
+  font-size: 2.5rem;
+  color: #00aaff;
+  margin-bottom: 30px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+
+/* Seção de chamada para ação */
+.cta {
   color: #fff;
   text-align: center;
   padding: 40px 20px;
@@ -88,15 +119,20 @@ font-size: 1.3rem;
 
 .cta .botao {
   display: inline-block;
-  background-color: #00f0ff;
-  color: #000000;
+  background-color: #00aaff;
+  color: #000;
   padding: 12px 24px;
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
   margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 240, 255, 0.4);
+  transition: transform 0.2s;
 }
 
+.cta .botao:hover {
+  transform: scale(1.05);
+}
 
 /*estilo menu */ 
 
@@ -109,7 +145,7 @@ header a {
 }
 
 header a:hover {
-  color: #00f0ff;
+  color: #00aaff;
   transform: scale(1.10);
 }
 
