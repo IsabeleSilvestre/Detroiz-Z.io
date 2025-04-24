@@ -271,32 +271,59 @@ body{
   
 /*Estilo Novidade */
  .text-novidade-container {
-  width: 100%;
+  width: 80%;
   padding: 10px;
   margin: 20px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
  }
  .text-novidade-container h1{
   font-size: 240%;
+  width: 100%;
+  max-width: 1500px;
+  color: #2a649b;
  }
  
  .text-novidade-container h2 {
   margin-top: 50px;
   font-size: 230%;
+  color: #2a649b;
+  width: 100%;
+  max-width: 1500px;
  }
  .text-novidade-container h3{
   font-size: 200%;
+ }
+ #data {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;
+  font-size: 190%;
+  padding: 0px;
  }
  .text-novidade-container p {
   display: flexbox;
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1850px;
+  max-width: 1500px;
   font-size: 190%;
-  
+  padding: 15px;
+ }
+ blockquote {
+  margin: 20px 0;
+  padding: 15px;
+  border-left: 4px solid #2a649b;
+  background-color: #2a2a2a;
+  font-style: italic;
+  color: #ccc;
+  width: 100%;
+  max-width: 1500px;
+  font-size: 180%;
  }
 /*estilo Contato*/
 
