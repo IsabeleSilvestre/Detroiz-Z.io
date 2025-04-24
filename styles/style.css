@@ -181,13 +181,14 @@ body{
 }
 
 .timeline-horizontal {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 50px auto;
-    padding: 40px 20px;
-    max-width: 1250px;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px auto;
+  margin-top: 300px;
+  padding: 40px 20px;
+  max-width: 1250px;
+  position: relative;
   }
   
   .timeline-horizontal::before {
