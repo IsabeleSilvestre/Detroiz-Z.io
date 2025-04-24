@@ -36,14 +36,72 @@ font-size: 1.3rem;
 }
 
 .text-container strong{
-  color: #00a2ff;
+  color: #0ff;
   font-style: italic;
 }
+
+/*estilo produtos*/
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #000;
+}
+
+.card {
+  background-color: #0a0a0a;
+  border: 1px solid #0ff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* estilo depoimento */
+.depoimento {
+  background-color: #01030f;
+  color: #0ff;
+  text-align: center;
+  padding: 50px 20px;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.cta {  
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cta .botao {
+  display: inline-block;
+  background-color: #00f0ff;
+  color: #000000;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
 
 /*estilo menu */ 
 
 header a {
-
+  padding: 20px 0px;
   text-decoration: none;
   display: inline-block;
   font-size: 1.2rem;
@@ -51,8 +109,8 @@ header a {
 }
 
 header a:hover {
-  color: rgb(11, 94, 248);
-  transform: scale(1.05);
+  color: #00f0ff;
+  transform: scale(1.10);
 }
 
 header nav ul {
@@ -66,7 +124,6 @@ header nav ul li {
   padding: 0 20px;
   margin: 10px 0;
 }
-
 
 /* Rodape */
 footer{
@@ -212,13 +269,15 @@ body{
   font-size: 220%;
   }
   
-/*Form Contato*/
+/*estilo Contato*/
 
 section.formulario { 
   padding: 100px 4%;
   min-height: 80vh;
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding-top: 200px;
 }
 
 form {
@@ -227,7 +286,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  margin-top: 0px;
+  margin-top: 40px;
 }
 
 form input, form textarea {
@@ -246,11 +305,13 @@ form textarea {
   min-height: 250px; 
 }
 
-form .btn-enviar {
-  margin-top: 20px;
+.titulos{
   text-align: center;
+  font-size: 32px; 
+  margin-bottom: 30px;
+  color: #ffffff;
 }
- 
+
 /* Botão */
 .botao {
   background-color: rgb(32, 32, 32);
@@ -267,8 +328,14 @@ form .btn-enviar {
   transition: all 0.2s ease-in; 
 }
 
+.btn-enviar {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
 .botao:hover {
-  background-color: rgb(12, 123, 187);
+  background-color: 0f0f;
   color: white;
 }
 
