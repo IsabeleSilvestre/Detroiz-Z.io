@@ -22,7 +22,7 @@
         </thead>
         <tbody class="corpo">
             <?php
-            $conexao = new mysqli("localhost", "root", "", "detroit", 3307); /* conexão */
+            $conexao = new mysqli("localhost", "root", "", "detroit"); /* conexão */
             $consulta = $conexao->query("select * from produto");
             $resultado = $consulta->fetch_all(MYSQLI_ASSOC);
             foreach ($resultado as $linha)
