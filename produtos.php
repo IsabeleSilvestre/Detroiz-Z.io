@@ -11,6 +11,18 @@
 </head>
 <body class="corpo">
 
+<header class="menu">
+        <nav>
+          <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="produtos.html">Produtos</a></li>
+              <li><a href="novidade.html">Novidade</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <h1 class="edp">ESTOQUE DE PRODUTOS</h1>
 <table border="1" class="tabela">
         <thead>
@@ -20,7 +32,7 @@
                 <td><strong>Quantidade</strong></td>
             </tr>
         </thead>
-        <tbody class="corpo">
+        <tbody>
             <?php
             $conexao = new mysqli("localhost", "root", "", "detroit"); /* conexão */
             $consulta = $conexao->query("select * from produto");
@@ -31,6 +43,30 @@
             $conexao->close();
             ?>
         </tbody>
-</table>
+</table><br><br><br><br>
+<footer>
+        <a href="https://www.instagram.com/spacex/">
+            <button class="rs">
+                 <img src="images/ins.PNG">
+            </button>
+        </a>
+        <a href="https://x.com/XSpaces">
+         <button class="rs">
+              <img src="images/tw.PNG">
+         </button>
+         </a>
+         <a href="https://www.linkedin.com/company/spacex/">
+             <button class="rs">
+                  <img src="images/link.PNG">
+             </button>
+         </a>
+         <p>
+             <a href="sobre.html">Sobre nós</a>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="contato.html">Contato</a>
+             <br><br><br>
+             © 2025 Detroit-Z. Todos os direitos reservados.
+         </p>
+     </footer>
 </body>
 </html>

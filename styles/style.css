@@ -466,25 +466,26 @@ font-size: larger;
 
 /*banco*/
 .tabela{
-border: 1px solid #000;     
-margin: 0 auto;
-height: 450px;
-width: 700px;
-text-align: center;
-background: #383838;
-font-size: 23px;
-overflow: hidden;
-border-radius: 10px;
-}
-
-.edp{
-  padding: 40px;
+  border: 1px solid #000;     
+  margin: 0 auto;
+  height: 450px;
+  width: 700px;
   text-align: center;
-}
-
-.azul{
-  background: #00aaff;
-  color: black;
-  padding: 400px;
-  height: 40px;
-}
+  background: #383838;
+  font-size: 23px;
+  overflow: hidden;
+  border-radius: 10px;
+  }
+  
+  .edp{
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .azul{
+    background: #00aaff;
+    color: black;
+    padding: 400px;
+    height: 40px;
+  }
+  
